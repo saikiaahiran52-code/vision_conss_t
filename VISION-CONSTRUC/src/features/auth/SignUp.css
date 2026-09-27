@@ -1,0 +1,34 @@
+/* SignUp.css */
+/* Reuses most styles from Login.css */
+
+.signup-form-container {
+  max-width: 440px; /* Slightly wider for the extra fields */
+}
+
+.password-strength-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+  font-size: 0.75rem;
+}
+
+.password-strength-bars {
+  display: flex;
+  gap: 4px;
+  flex: 1;
+  max-width: 150px;
+}
+
+.strength-bar {
+  height: 4px;
+  flex: 1;
+  border-radius: 2px;
+  background-color: #E2E8F0;
+  transition: background-color 0.3s ease;
+}
+
+.strength-label {
+  font-weight: 500;
+  margin-left: 12px;
+}
